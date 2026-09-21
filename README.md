@@ -4,6 +4,17 @@ This POC shows how to receive WhatsApp messages through the WhatsApp Cloud API (
 
 You don't need a CNPJ or a verified business to try it out. Both are only required for production.
 
+## Example
+
+The customer sends a free-text order. The app extracts the fields, replies with a summary and **Confirm** / **Edit** buttons, and sends a confirmation message once the customer taps **Confirm**.
+
+<details>
+<summary>Show screenshot</summary>
+
+![WhatsApp conversation: a free-text order, the parsed order summary with Confirm and Edit buttons, and the confirmation reply](example.jpeg)
+
+</details>
+
 ## Prerequisites
 
 - A Meta for Developers account (developers.facebook.com)
